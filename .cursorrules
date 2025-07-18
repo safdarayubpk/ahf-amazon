@@ -18,7 +18,7 @@
 
 ## Scratchpad
 
-### 1. Project Setup and Configuration [ ]
+### 1. Project Setup and Configuration [X]
 
 [X] Initialize Next.js 15 project with TypeScript
 [X] Set up project structure and folders
@@ -27,7 +27,7 @@
 [X] Breakpoint constants
 [X] Media query hooks
 [X] Responsive container component
-[ ] Install and configure dependencies:
+[X] Install and configure dependencies:
 [X] Shadcn UI components
 [X] Basic UI: Button, Input, Select, Form, Label
 [X] Layout: Card, Sheet, Tabs, Separator, Table
@@ -40,14 +40,14 @@
 [X] Authentication schemas (login, register)
 [X] Product schemas (product, review)
 [X] Checkout schemas (address, payment, order)
-[ ] Zustand for state management
-[ ] Recharts for analytics
-[ ] Resend for emails
-[ ] Uploadthing for file uploads
+[X] Zustand for state management
+[X] Recharts for analytics
+[X] Resend for emails
+[X] Uploadthing for file uploads
 [X] Prisma ORM
-[ ] PostgreSQL database
+[X] PostgreSQL database
 [X] NextAuth.js beta for authentication
-[ ] Stripe for payments
+[X] Stripe for payments
 
 ### 2. Database and Authentication [X]
 
@@ -84,13 +84,15 @@
 
 ### 3. Core Features - Customer Side [ ]
 
-[ ] Home Layout:
-[ ] Create `(home)` folder in `app` directory
-[ ] Header with logo, search bar, and navigation
-[ ] Footer with links and social media
+[X] Home Layout:
+[X] Create `(home)` folder in `app` directory
+[X] Header with logo, search bar, and navigation
+[X] Footer with links and social media
 [ ] Homepage:
-[ ] banner carousel
-[ ] latest products
+[X] Banner carousel
+[X] Latest products section
+[ ] Featured categories
+[ ] Special offers section
 [ ] Products Catalog:
 [ ] Sidebar with categories and filters
 [ ] Search results
