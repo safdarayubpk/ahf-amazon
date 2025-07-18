@@ -14,6 +14,8 @@
 
 ## Lessons
 
+- Remove unused variable assignments when the return values aren't needed, especially in database seeding operations.
+
 ## Scratchpad
 
 ### 1. Project Setup and Configuration [ ]
@@ -42,26 +44,43 @@
 [ ] Recharts for analytics
 [ ] Resend for emails
 [ ] Uploadthing for file uploads
-[ ] Prisma ORM
+[X] Prisma ORM
 [ ] PostgreSQL database
-[ ] NextAuth.js beta for authentication
+[X] NextAuth.js beta for authentication
 [ ] Stripe for payments
 
-### 2. Database and Authentication [ ]
+### 2. Database and Authentication [X]
 
-[ ] Set up PostgreSQL database
-[ ] Configure Prisma schema:
-[ ] User model
-[ ] Product model
-[ ] Category model
-[ ] Order model
-[ ] Review model
-[ ] Cart model
-[ ] Implement NextAuth.js authentication:
-[ ] Email/Password
-[ ] OAuth providers (Google, GitHub)
-[ ] JWT handling
-[ ] Protected routes
+[X] Set up PostgreSQL database
+[X] Configure Prisma schema:
+[X] User model
+[X] Basic fields (name, email, password)
+[X] Role enum (USER, ADMIN)
+[X] Relations (orders, reviews, cart)
+[X] Product model
+[X] Basic fields (name, description, price)
+[X] Images and specifications
+[X] Relations (category, reviews)
+[X] Category model
+[X] Basic fields (name, description)
+[X] Hierarchical structure
+[X] Relations (products)
+[X] Order model
+[X] Basic fields (status, amounts)
+[X] Address handling
+[X] Payment integration
+[X] Relations (user, items)
+[X] Review model
+[X] Basic fields (rating, title, comment)
+[X] Relations (user, product)
+[X] Cart model
+[X] Basic structure
+[X] CartItem handling
+[X] Relations (user, products)
+[X] Implement NextAuth.js authentication:
+[X] JWT handling
+[X] Protected routes
+[X] Role-based access control
 
 ### 3. Core Features - Customer Side [ ]
 
