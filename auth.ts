@@ -80,10 +80,11 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             throw new Error('Invalid password');
           }
 
+          // Ensure name is never null for NextAuth User type compatibility
           return {
             id: user.id,
             email: user.email,
-            name: user.name,
+            name: user.name || '', // Convert null to empty string
             role: user.role,
           };
         } catch (error) {
